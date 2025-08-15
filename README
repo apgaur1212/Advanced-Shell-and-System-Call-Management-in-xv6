@@ -8,7 +8,7 @@ This project extends the **xv6 Operating System (version 11)** by implementing a
 
 ## Features Implemented (According to Assignment)
 
-### 1. Secure Login System (10 Marks)
+### 1. Secure Login System 
 - Added username/password-based authentication for the shell.  
 - Username and password are defined as macros in the `Makefile`.  
 - User gets **maximum 3 attempts**; shell access is denied after 3 failed tries.  
@@ -24,7 +24,7 @@ $
 
 ---
 
-### 2. `history` Command (10 Marks)
+### 2. `history` Command
 - Displays all executed processes in ascending order of time.  
 - Each process entry includes:
   - **PID**
@@ -43,7 +43,7 @@ PID   Process Name   Memory (bytes)
 2     sh             2048
 3     ls             1024
 
-3. block and unblock Commands (10 Marks)
+3. block and unblock Commands 
 
 Dynamically block/unblock specific system calls for all processes spawned by the current shell.
 
@@ -65,7 +65,7 @@ When a blocked syscall is invoked, the shell prints:
 
 syscall 7 is blocked
 
-4. chmod Command (10 Marks)
+4. chmod Command 
 
 Modify file permissions using a 3-bit integer mode:
 
